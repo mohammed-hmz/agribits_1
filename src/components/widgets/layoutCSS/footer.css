@@ -1,0 +1,122 @@
+.footer {
+    padding: 2rem 1rem 1.5rem;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  
+  @media (min-width: 1024px) {
+    .footer-content {
+      text-align: left;
+    }
+  }
+  
+  .footer-left {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .footer-left {
+      width: 50%;
+    }
+  }
+  
+  .footer-title {
+    margin-bottom: 1rem;
+    color: #1e293b; /* Blue-gray color */
+  }
+  
+  .footer-description {
+    font-weight: 400;
+    color: #64748b; /* Lighter blue-gray */
+    max-width: 40%;
+  }
+  
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1.5rem auto;
+  }
+  
+  @media (min-width: 1024px) {
+    .footer-socials {
+      justify-content: flex-start;
+    }
+  }
+  
+  .footer-social-icon {
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  .footer-menus {
+    margin: 3rem auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+  }
+  
+  .footer-menu-title {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #1e293b;
+  }
+  
+  .footer-menu-items {
+    margin-top: 1rem;
+  }
+  
+  .footer-menu-link {
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    color: #64748b;
+    transition: color 0.3s;
+  }
+  
+  .footer-menu-link:hover {
+    color: #1e293b;
+  }
+  
+  .footer-divider {
+    margin: 1.5rem 0;
+    border-color: #d1d5db;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-copyright {
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .footer-copyright-text {
+    font-weight: 400;
+    color: #64748b;
+  }
+  
+  .footer-copyright-link {
+    color: #64748b;
+    transition: color 0.3s;
+  }
+  
+  .footer-copyright-link:hover {
+    color: #3b82f6; /* Tailwind's blue-500 */
+  }
+  

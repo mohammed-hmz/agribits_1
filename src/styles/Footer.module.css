@@ -1,0 +1,177 @@
+/* Footer.module.css */
+
+/* Green Color Scheme */
+:root {
+  --background-color: #28a745; /* Green background for the footer */
+  --text-color: #ffffff; /* White text for contrast */
+  --text-light-color: #f8f9fa; /* Light text for links */
+}
+
+/* Footer container */
+.footer {
+  background-color: var(--background-color);
+  padding: 20px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* Content */
+.footerContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contactSection, .linksSection, .infoSection {
+  flex: 1;
+  margin: 15px;
+  min-width: 200px;
+}
+
+/* Contact Form */
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputField {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  outline: none;
+}
+
+.inputField:focus {
+  border-color: #000000;
+}
+
+.textarea {
+  padding: 10px;
+  font-size: 16px;
+  height: 100px;
+  text-align:justify;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.textarea:focus {
+  border-color: #000000;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  width: 50%;
+  align-self: center;
+  background-color: #d6eadf41;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+}
+
+.submitButton:not(:disabled):hover {
+  background-color: #3f6f33;
+}
+
+
+/* Footer Links */
+.linksSection {
+  text-align: left;
+}
+
+.footerLinks {
+  list-style: none;
+  padding: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 5px;
+}
+
+.footerLinks a {
+  color: var(--text-light-color);
+  text-decoration: none;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Info */
+.infoSection {
+  text-align: left;
+}
+
+/* Copyright */
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal h4 {
+  margin-bottom: 10px;
+}
+
+.modal p {
+  margin-bottom: 20px;
+}
+
+.closeModalButton {
+  background-color: var(--background-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeModalButton:hover {
+  background-color: #218838; /* Darker green */
+}

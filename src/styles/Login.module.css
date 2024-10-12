@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("./../../public/images/image.png") no-repeat center center; /* Use your background image */
+  background-size: cover; /* Cover the entire container */
+  font-family: Arial, sans-serif;
+}
+
+.formContainer {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for the form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  max-width: 400px; /* Set max width for form */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555; /* Darker gray for labels */
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.submitButton {
+  width: 70%;
+  padding: 10px;
+  margin-left: 15%;
+  background-color: #4caf50; /* Green button */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+
+
+}
+
+.submitButton:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.error {
+  color: red; /* Red text for errors */
+  margin-bottom: 15px;
+}

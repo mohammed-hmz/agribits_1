@@ -1,0 +1,32 @@
+.farmingSection {
+    height: 100vh;
+    background: url('../../public/images/image.png') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .feedbackBtn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feedbackBtn:hover {
+    background-color: #c70039;
+  }
+  

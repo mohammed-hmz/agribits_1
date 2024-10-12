@@ -1,0 +1,39 @@
+.feedbackSection {
+    padding: 3rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .feedbackSection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .form {
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+  }
+  
+  .submitBtn {
+    padding: 1rem 2rem;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitBtn:hover {
+    background-color: #c70039;
+  }
+  

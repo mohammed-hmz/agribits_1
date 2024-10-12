@@ -1,0 +1,60 @@
+.footer {
+    padding: 0.5rem 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-container {
+      justify-content: space-between;
+    }
+  }
+  
+  .footer-text {
+    font-size: 0.875rem; /* Equivalent to Tailwind's 'small' */
+    font-weight: 400;
+    color: inherit;
+  }
+  
+  .footer-icon {
+    margin-top: -0.125rem; /* Tailwind class: -mt-0.5 */
+    display: inline-block;
+    height: 0.875rem; /* 3.5 / 4 = 0.875rem */
+    width: 0.875rem;
+  }
+  
+  .footer-link {
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #3b82f6; /* Tailwind's blue-500 */
+  }
+  
+  .footer-routes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-route-item {
+    padding: 0.125rem 0.25rem; /* Equivalent to Tailwind's py-0.5 px-1 */
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-route-item:hover {
+    color: #3b82f6; /* Tailwind's blue-500 */
+  }
+  

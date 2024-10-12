@@ -1,0 +1,32 @@
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;/* Full viewport height */
+  background-color:rgba(210, 180, 140, 0); /* Light background color for contrast */
+ /* Padding around the carousel */
+}
+
+.carousel {
+
+  max-width: 1000px; /* Limit max width on larger screens */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.2rem; /* Smaller headings on mobile */
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem; /* Smaller paragraphs on mobile */
+  }
+}

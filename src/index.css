@@ -1,0 +1,31 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  
+}
+
+/* Light mode variables */
+:root {
+  --bg-color: #fafafa;
+  --text-color: #333;
+  --navbar-bg: #f8b400;
+  --button-bg: #ff5733;
+  --button-hover-bg: #c70039;
+}
+
+/* Dark mode variables */
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --navbar-bg: #333;
+  --button-bg: #ff5733;
+  --button-hover-bg: #ff784e;
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+}
